@@ -28,7 +28,7 @@ int main()
 
   ATarget* wall = tarGen.createTarget("Inconspicuous Red-brick Wall");
 
-  /* richard.introduce(); */
-  /* richard.launchSpell("Polymorph", *wall); */
-  /* richard.launchSpell("Fireball", *wall); */
+   richard.introduce();
+   richard.launchSpell("Polymorph", *wall); 
+   richard.launchSpell("Fireball", *wall); 
 }
